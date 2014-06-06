@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 4c6ed5ee72655497d800c53c2149cb40
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: armen
+    100002: belt
+    100004: bovenbeen_L
+    100006: bovenbeen_R
+    100008: //RootNode
+    100010: eyes
+    100012: hair
+    100014: head
+    100016: onderbeen_L
+    100018: onderbeen_R
+    100020: pants
+    100022: Sphere
+    100024: Sphere_1
+    100026: Sphere_2
+    100028: Sphere_3
+    100030: voet_L
+    100032: voet_R
+    400000: armen
+    400002: belt
+    400004: bovenbeen_L
+    400006: bovenbeen_R
+    400008: //RootNode
+    400010: eyes
+    400012: hair
+    400014: head
+    400016: onderbeen_L
+    400018: onderbeen_R
+    400020: pants
+    400022: Sphere
+    400024: Sphere_1
+    400026: Sphere_2
+    400028: Sphere_3
+    400030: voet_L
+    400032: voet_R
+    2300000: armen
+    2300002: belt
+    2300004: bovenbeen_L
+    2300006: bovenbeen_R
+    2300008: //RootNode
+    2300010: hair
+    2300012: head
+    2300014: onderbeen_L
+    2300016: onderbeen_R
+    2300018: pants
+    2300020: Sphere
+    2300022: Sphere_1
+    2300024: Sphere_2
+    2300026: Sphere_3
+    2300028: voet_L
+    2300030: voet_R
+    3300000: armen
+    3300002: belt
+    3300004: bovenbeen_L
+    3300006: bovenbeen_R
+    3300008: //RootNode
+    3300010: hair
+    3300012: head
+    3300014: onderbeen_L
+    3300016: onderbeen_R
+    3300018: pants
+    3300020: Sphere
+    3300022: Sphere_1
+    3300024: Sphere_2
+    3300026: Sphere_3
+    3300028: voet_L
+    3300030: voet_R
+    4300000: body
+    4300002: bovenbeen_L
+    4300004: onderbeen_L
+    4300006: voet_L
+    4300008: bovenbeen_R
+    4300010: onderbeen_R
+    4300012: voet_R
+    4300014: pants
+    4300016: belt
+    4300018: armen
+    4300020: head
+    4300022: hair
+    4300024: Sphere_2
+    4300026: Sphere
+    4300028: Sphere_1
+    4300030: Sphere_3
+    7400000: C4D Animation Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
