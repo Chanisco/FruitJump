@@ -9,9 +9,8 @@ public class PlayerMove : MonoBehaviour {
 	private int canjump;
 	
 	public AudioClip jumpSound;
-	
-	
-	// Update is called once per frame
+
+
 	void FixedUpdate () {
 		
 		float x;
@@ -50,11 +49,11 @@ public class PlayerMove : MonoBehaviour {
 	{
 		if(playerNum == 1)
 			{
-				Global.chaiswro1 = false;
+				Global.ChangeIsWrong1 = false;
 			}
 			else
 			{
-				Global.chaiswro2 = false;
+				Global.ChangeIsWrong2 = false;
 			}
 	}
 }

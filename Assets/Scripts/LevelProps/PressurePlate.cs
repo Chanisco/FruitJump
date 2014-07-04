@@ -11,12 +11,7 @@ public class PressurePlate : MonoBehaviour {
 	public float minRotate;
 	
 	private int active = 0;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if(active != 0 && moveItem.transform.eulerAngles.z < maxRotate)
 		{
@@ -30,7 +25,7 @@ public class PressurePlate : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.collider.name == "Player1" || col.collider.name == "Player2")
+		if(col.collider.tag == Tags.player1 || col.collider.name == Tags.player2)
 		{
 			
 			butTop.transform.Translate(new Vector3(0f,-0.3f,0f));
@@ -41,7 +36,7 @@ public class PressurePlate : MonoBehaviour {
 	
 	void OnTriggerExit(Collider col)
 	{
-		if(col.collider.name == "Player1" || col.collider.name == "Player2")
+		if(col.collider.tag == Tags.player1 || col.collider.name == Tags.player2)
 		{
 			
 			butTop.transform.Translate(new Vector3(0f,0.3f,0f));
