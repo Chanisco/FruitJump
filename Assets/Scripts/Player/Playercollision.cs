@@ -6,10 +6,12 @@ public class Playercollision : MonoBehaviour {
 	void Start(){
 		count = 0;
 	}
-	void OnTriggerEnter(Collider other) {
-		if(other.tag == Tags.pickups){
-			other.gameObject.SetActive(false);
+	void OnCollisionEnter(Collision other) {
+		Debug.Log("YEAH");
+		if(other.collider.tag == Tags.pickups){
+			Destroy(other.gameObject);
 			count += 1;
+
 		}
 	}
 }
