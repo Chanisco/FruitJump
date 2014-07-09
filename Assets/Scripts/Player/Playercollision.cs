@@ -6,8 +6,7 @@ public class Playercollision : MonoBehaviour {
 	void Start(){
 		count = 0;
 	}
-	void OnCollisionEnter(Collision other) {
-		Debug.Log("YEAH");
+	void OnTriggerEnter(Collider other) {
 		if(other.collider.tag == Tags.pickups){
 			Destroy(other.gameObject);
 			count += 1;
